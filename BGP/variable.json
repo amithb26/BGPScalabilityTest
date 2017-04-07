@@ -1,0 +1,7 @@
+{
+   "number_of_instances":3,
+   "Network":"40.0.0.0/24",
+   "globalAS":"500",
+   "AS_Start":200,
+   "RouterIDNetwork":"10.0.0.0/24"
+}

@@ -1,0 +1,18 @@
+{
+    "Device_details": [
+        {
+            "DUT1": {
+                "Interface": "eth1", 
+                "IP_address": "40.0.0.1/24"
+            }, 
+            "DUT3": {
+                "Interface": "eth3", 
+                "IP_address": "40.0.0.3/24"
+            }, 
+            "DUT2": {
+                "Interface": "eth2", 
+                "IP_address": "40.0.0.2/24"
+            }
+        }
+    ]
+}

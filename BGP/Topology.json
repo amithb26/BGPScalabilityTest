@@ -1,0 +1,16 @@
+{
+    "Device_details": {
+        "Router1": {
+            "IP_address": "40.0.0.1/24", 
+            "Interface": "eth1"
+        }, 
+        "Router2": {
+            "IP_address": "40.0.0.2/24", 
+            "Interface": "eth2"
+        }, 
+        "Router3": {
+            "IP_address": "40.0.0.3/24", 
+            "Interface": "eth3"
+        }
+    }
+}

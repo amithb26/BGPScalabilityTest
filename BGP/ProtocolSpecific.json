@@ -1,0 +1,45 @@
+{
+    "BGP_Parameters": {
+        "Router1": {
+            "ASNum": 200, 
+            "GlobalAS": "500", 
+            "PeerDetails": {
+                "Peer1": {
+                    "ASNum": 200, 
+                    "IP_Address": "40.0.0.2/24", 
+                    "Interface": "eth2"
+                }
+            }, 
+            "RouterID": "10.0.0.1"
+        }, 
+        "Router2": {
+            "ASNum": 200, 
+            "GlobalAS": "500", 
+            "PeerDetails": {
+                "Peer1": {
+                    "ASNum": 200, 
+                    "IP_Address": "40.0.0.1/24", 
+                    "Interface": "eth1"
+                }, 
+                "Peer2": {
+                    "ASNum": 200, 
+                    "IP_Address": "40.0.0.3/24", 
+                    "Interface": "eth3"
+                }
+            }, 
+            "RouterID": "10.0.0.2"
+        }, 
+        "Router3": {
+            "ASNum": 200, 
+            "GlobalAS": "500", 
+            "PeerDetails": {
+                "Peer1": {
+                    "ASNum": 200, 
+                    "IP_Address": "40.0.0.2/24", 
+                    "Interface": "eth2"
+                }
+            }, 
+            "RouterID": "10.0.0.3"
+        }
+    }
+}
